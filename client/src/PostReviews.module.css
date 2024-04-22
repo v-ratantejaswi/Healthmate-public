@@ -1,0 +1,43 @@
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .review {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+  }
+  
+  .reviewHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .reviewRating {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  .reviewAuthor {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .reviewDate {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .reviewBody {
+    line-height: 1.6;
+  }
+  

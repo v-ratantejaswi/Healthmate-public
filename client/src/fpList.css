@@ -1,0 +1,78 @@
+/* fpList.css */
+.subscribe-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .unsubscribe-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .unsubscribe-button:hover {
+    background-color: #c82333;
+  }
+  
+  .subscribed-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: not-allowed;
+  }
+  
+  .professionals-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .professionals-table th,
+  .professionals-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .professionals-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .subscribed-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: not-allowed;
+  }
+  
+  .subscribe-button,
+  .unsubscribe-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:disabled,
+  .unsubscribe-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

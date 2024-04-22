@@ -1,0 +1,20 @@
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .star {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("empty_star.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  .star.filled {
+    background-image: url("filled_star.png");
+  }
+  

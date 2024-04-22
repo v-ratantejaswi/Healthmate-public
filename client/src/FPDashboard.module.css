@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./Images/dashboard/hd-wallpaper-6787476.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .title {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .subTitle {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .centeredContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-position: center;
+  }
+  
+
+  .learnMoreButton {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .learnMoreSection {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+  }
+  
+  
+  
+  .text {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+
+
+
+  

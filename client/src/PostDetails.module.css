@@ -1,0 +1,66 @@
+.container {
+    background-image: url('./Images/register/reg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .postDetails {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reviewSection {
+    position: absolute;
+    top: 38vh;
+    left: 0;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.0);
+    max-width: 800px;
+    width: 60%;
+  }
+  
+  .reviewHeading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: rgb(70, 26, 26);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+
+  
+  
+  
+  label,
+  input,
+  textarea {
+    margin-bottom: 10px;
+  }
+  

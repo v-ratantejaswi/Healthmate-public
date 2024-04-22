@@ -1,0 +1,75 @@
+.register-background {
+    background-image: url("./Images/register/reg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .h1_title{
+    text-align: center;
+  }
+
+  .register-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+  }
+
+  .register-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .register-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .register-form input[type="password"] {
+    margin-bottom: 10px;
+  }
+  
+  .register-form p {
+    margin-bottom: 10px;
+    color: red;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+.register-form button {
+  background-color: #2d9cdb;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 16px;
+  
+}
+
+

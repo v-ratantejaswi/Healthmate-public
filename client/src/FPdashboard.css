@@ -1,0 +1,61 @@
+.fp-dashboard {
+    font-family: 'Times New Roman', serif;
+    background-image: url("./Images/strong.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+    height: 3rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-button {
+
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #3d8b40;
+  }
+  
+  .fp-dashboard-content {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  .move-up{
+    margin-top: -30em;
+  }
+
+  .move-down{
+    margin-top: 33em;
+  }

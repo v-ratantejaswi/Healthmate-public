@@ -1,0 +1,273 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.rotate {
+  animation: rotate360 2s linear infinite;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.rotate {
+  animation: rotate360 2s linear infinite;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  40% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+  /* 90% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  } */
+}
+.wave {
+  display: inline-block;
+  animation-name: wave;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 64px;
+  background-color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  margin-right: 32px;
+}
+
+.nav-button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  float: right;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-right: 10px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.form button {
+  background-color: #131313;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh);
+  padding: 0 64px;
+  background-image: url("./Images/dashboard/dashboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 60px; */
+  /* margin-bottom: 60px; */
+  text-align: center;
+  background-color: #623ecee0;
+}
+
+.fitness-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh);
+  padding: 0 64px;
+  background-image: url("./Images/dashboard/dashboard2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 60px; */
+  /* margin-bottom: 60px; */
+  text-align: center;
+  background-color: #623ecee0;
+}
+
+.dietary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh);
+  padding: 0 64px;
+  background-image: url("./Images/dashboard/dashboard3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 60px; */
+  /* margin-bottom: 60px; */
+  text-align: center;
+  background-color: #623ecee0;
+}
+
+.dashboard-h {
+  text-align : center;
+  background-color: black;
+  color: white;
+}
+.animated-title {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 360px;
+  color: #000;
+}
+
+
+
+.readable-content {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+in-center{
+  margin-top: 5em;
+  margin-left: 5em;
+  justify-content: "center";
+}

@@ -1,0 +1,98 @@
+.login-background {
+    background-image: url("./Images/register/reg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+  }
+
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .login-form input[type="password"] {
+    margin-bottom: 10px;
+  }
+  
+  .login-form p {
+    margin-bottom: 10px;
+    color: red;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+.login-form button {
+  background-color: #2d9cdb;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 16px;
+  
+}
+
+.h1_title{
+    text-align: center;
+}
+
+
+
+.login-form select,
+.login-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+/* Add a minimum height and vertical resizing for the textarea */
+.login-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.margin_bottom {
+  margin-bottom: 1em;
+}
+
+.in_center{
+  justify-content: center;
+}

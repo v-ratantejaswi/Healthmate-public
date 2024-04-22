@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('./Images/dashboard/the-background-g239a76dbe_1280.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; /* Add this line to set the font color to white */
+
+  }
+  
+  .centeredContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-position: center;
+  }
+  
+
+  .learnMoreButton {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .learnMoreSection {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+  }
+  
+  .title {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    
+  }
+  
+  .subTitle {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .text {
+    animation: fadeIn 2s ease-in-out;
+  }
+  

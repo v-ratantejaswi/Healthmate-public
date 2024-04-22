@@ -1,0 +1,44 @@
+.profile-page {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-page__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 2em;
+
+  }
+  
+  .profile-page__info {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .profile-page__button {
+    background-color: rgb(40, 109, 49);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .profile-page__label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .profile-page__input {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+  }
+  
+  .profile__button--cancel {
+    margin-left: 5em;
+  }
+  
